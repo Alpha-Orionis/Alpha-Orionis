@@ -1,36 +1,57 @@
-# Hi, I'm Alpha-Orionis
+# Hi, I'm Peiyao Shou
 
-**Computer vision · Self-supervised learning · Research tooling**
+**Computer vision · Visual foundation models · Efficient multimodal AI**
 
-I work on visual learning and tools that make research experiments easier to run and review. My public projects span unsupervised camouflaged object detection, neural network implementations, and agent-assisted experiment workflows.
+I'm a Master of Data Science student at **The University of Sydney**, with a B.Eng. in Automation from **Hangzhou Dianzi University**. My work connects visual representation learning, multimodal models, and practical computer vision systems, from method design and experimental validation to deployment.
 
-## Featured projects
+[Google Scholar](https://scholar.google.com/citations?user=VMCdSwkAAAAJ) · [Email](mailto:peiyaoshou@gmail.com)
 
-### [SdalsNet](https://github.com/Alpha-Orionis/SdalsNet)
+## Education
 
-**Self-Distilled Attention Localization and Shift Network for Unsupervised Camouflaged Object Detection**
+- **The University of Sydney** — Master of Data Science, February 2026–July 2027 (expected).
+- **Hangzhou Dianzi University** — B.Eng. in Automation, September 2021–June 2025.
 
-A computer vision project exploring attention localization and self-distillation for detecting camouflaged objects without supervision. The repository includes training and evaluation code, a vision transformer implementation, and a pretrained model link.
+## Selected publications
 
-`Python` `PyTorch` `Vision Transformers` `Self-distillation`
+### SdalsNet — AAAI 2025
 
-### [Auto Research v1](https://github.com/Alpha-Orionis/auto-research-v1)
+**SdalsNet: Self-Distilled Attention Localization and Shift Network for Unsupervised Camouflaged Object Detection**  
+**Peiyao Shou**, Yixiu Liu, et al. · **First author**
 
-**Agent-assisted workflows for bounded research experiments**
+Developed a self-distillation framework for camouflaged object detection without pixel-level annotations. Attention localization and attention shift learning strengthen foreground aggregation and background separation.
 
-A project-local OpenCode workflow for planning, running, and reviewing experiments. It includes a Python runner, background workers, resource monitoring, structured reviews, and recovery tools.
+[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32742) · [Code and model](https://github.com/Alpha-Orionis/SdalsNet)
 
-`Python` `OpenCode` `Experiment Workflows` `Research Tooling`
+### EPC-Net — IEEE Transactions on Consumer Electronics, 2024
 
-## Earlier projects
+**Expand, Pool and Confine: Reliably Detaching Salient Objects From the Background**  
+Yixiu Liu, **Peiyao Shou**, et al. · **First student author**
 
-- [FCN-Bags](https://github.com/Alpha-Orionis/FCN-Bags) — Fully convolutional network experiments for image segmentation.
-- [MNIST](https://github.com/Alpha-Orionis/mnist) — Neural network experiments with training, evaluation, and prediction scripts.
+Developed EPC-Net with confidence region expansion, joint probability pooling, and a compact background-aware Transformer to preserve object boundaries and suppress background noise.
 
-## Areas of interest
+[Paper](https://doi.org/10.1109/TCE.2024.3430354)
 
-- Computer vision and visual representation learning
-- Self-supervised learning and attention-based models
-- Practical tools for repeatable experiments and research review
+## Research experience
 
-Explore the projects above for code and implementation details. For project-specific questions, open an issue in the relevant repository.
+- **The University of Sydney · Multimedia Laboratory / BMIT Research Group** — Research Assistant, August 2026–present. Study industrial anomaly detection with frozen DINOv3 features, token-wise normalization, and multi-resolution fusion; evaluate robustness through repeated seeds and cross-validation.
+- **Hangzhou Dianzi University · Intelligent Information Processing Lab** — Research Assistant, July 2022–present. Work on unsupervised camouflaged object detection, salient object detection, and multimodal vision. Mentor junior researchers and maintain multi-GPU training infrastructure.
+- **Beijing Institute of Technology · Institute of Intelligent Information Processing and Control** — Research Assistant, July 2026. Designed a differentiable 4D world-model architecture for embodied perception and planning, combining spatiotemporal latent projection, action-conditioned dynamics, and JEPA constraints.
+
+## Applied computer vision
+
+- **UAV slope inspection and deformation monitoring** — Lead Algorithm Engineer, March–July 2026. Designed a UAV and passive-beacon vision solution for centimeter-level deformation monitoring in a joint R&D project with a state-owned enterprise.
+- **Power-line UAV inspection · State Grid collaboration** — Lead Algorithm Engineer, May–December 2025. Built object-detection, defect-recognition, and data-to-inference pipelines for field deployment. The deployed system processed data associated with tens of thousands of utility poles.
+
+## Open source
+
+- **[SdalsNet](https://github.com/Alpha-Orionis/SdalsNet)** — Training and evaluation code, a vision transformer implementation, and a pretrained model for unsupervised camouflaged object detection.
+- **[Auto Research v1](https://github.com/Alpha-Orionis/auto-research-v1)** — Project-local OpenCode workflows for planning, running, and reviewing bounded experiments, with background workers, resource monitoring, and recovery tools.
+- Earlier implementations: [FCN-Bags](https://github.com/Alpha-Orionis/FCN-Bags) for image segmentation and [MNIST](https://github.com/Alpha-Orionis/mnist) for neural network training, evaluation, and prediction.
+
+## Technical focus and ongoing research
+
+**Python · PyTorch · Vision Transformers · Distributed training · Multi-GPU research infrastructure**
+
+Current research also explores query-aware visual token compression for efficient multimodal large language models and self-supervised reasoning for fine-grained multimodal intent recognition.
+
+For research discussions, contact me by email. For questions about released code, open an issue in the relevant repository.
