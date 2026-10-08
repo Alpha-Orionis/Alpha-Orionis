@@ -46,7 +46,6 @@ Developed EPC-Net with confidence region expansion, joint probability pooling, a
 
 - **[SdalsNet](https://github.com/Alpha-Orionis/SdalsNet)** — Training and evaluation code, a vision transformer implementation, and a pretrained model for unsupervised camouflaged object detection.
 - **[Auto Research v1](https://github.com/Alpha-Orionis/auto-research-v1)** — Project-local OpenCode workflows for planning, running, and reviewing bounded experiments, with background workers, resource monitoring, and recovery tools.
-- Earlier implementations: [FCN-Bags](https://github.com/Alpha-Orionis/FCN-Bags) for image segmentation and [MNIST](https://github.com/Alpha-Orionis/mnist) for neural network training, evaluation, and prediction.
 
 ## Technical focus and ongoing research
 
