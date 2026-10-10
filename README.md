@@ -54,3 +54,27 @@ Developed EPC-Net with confidence region expansion, joint probability pooling, a
 Current research also explores query-aware visual token compression for efficient multimodal large language models and self-supervised reasoning for fine-grained multimodal intent recognition.
 
 For research discussions, contact me by email. For questions about released code, open an issue in the relevant repository.
+
+
+## Manuscripts and ongoing work
+
+### Query-aware visual compression
+
+**Query-Aware Dynamic Visual Compression for Efficient Multimodal Large Language Models**  
+Peiyao Shou, et al. · **Submitted to CVPR**
+
+**Abstract.** High-resolution visual inputs can produce large numbers of tokens, increasing the inference cost of multimodal large language models. This work studies query-aware dynamic visual compression: selecting visual tokens according to their relevance to the current query, rather than retaining the same visual content for every task. The objective is to reduce the visual-token budget and inference overhead while preserving the evidence needed for task performance.
+
+### Multimodal intent recognition
+
+**Fine-Grained Multimodal Intent Recognition and Language Analysis with Vision-Language Models**  
+Peiyao Shou, et al. · **Submitted to CVPR**
+
+**Abstract.** Fine-grained intent recognition requires interpreting visual observations together with linguistic cues and interaction context. This work studies a self-supervised, multi-stage reasoning framework that integrates these sources of evidence for multimodal intent recognition. It focuses on reducing error propagation between reasoning stages while retaining the complementary information needed to distinguish closely related intentions.
+
+### External memory and backtracking
+
+**External Memory and Backtracking for Small-Model Reasoning**  
+**In preparation · Working title**
+
+**Abstract.** This ongoing work investigates whether explicit external reasoning states and additional search can improve knowledge-intensive reasoning with a small language model. The proposed framework combines a fixed knowledge base with persistent, retrievable working memory, iterative queries, isolated search branches, and backtracking. Planned evaluation compares methods using the same small-model backbone and controlled inference budgets, with ablations of memory retention, branch isolation, and backtracking. The aim is to examine the trade-off between model size and inference-time computation; comparative results are not yet reported.
