@@ -78,3 +78,10 @@ Peiyao Shou, et al. · **Submitted to CVPR**
 **In preparation · Working title**
 
 **Abstract.** This ongoing work investigates whether explicit external reasoning states and additional search can improve knowledge-intensive reasoning with a small language model. The proposed framework combines a fixed knowledge base with persistent, retrievable working memory, iterative queries, isolated search branches, and backtracking. Planned evaluation compares methods using the same small-model backbone and controlled inference budgets, with ablations of memory retention, branch isolation, and backtracking. The aim is to examine the trade-off between model size and inference-time computation; comparative results are not yet reported.
+
+
+## Project repositories
+
+- [Query-Aware Dynamic Visual Compression for Efficient Multimodal Large Language Models](https://github.com/Alpha-Orionis/query-aware-visual-compression) — submitted to CVPR.
+- [Fine-Grained Multimodal Intent Recognition and Language Analysis with Vision-Language Models](https://github.com/Alpha-Orionis/multimodal-intent-recognition) — submitted to CVPR.
+- [External Memory and Backtracking for Small-Model Reasoning](https://github.com/Alpha-Orionis/external-memory-backtracking) — in preparation; working title.
